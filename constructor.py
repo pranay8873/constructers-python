@@ -1,0 +1,19 @@
+class pk:
+  def __init__(self,clg,year):
+    print("from in it")
+    self.clg = clg
+    self.year = year
+  def pranay(self):
+    print(f"pranay is studying in {self.clg} as a {self.year} aiml student")
+
+pkk=pk("sri indu","3rd yr")
+pkk.pranay()
+class hi:
+  def __init__(self):
+    print("HI frnds")
+  def add(self,a,b):
+    print(f"sum of {a} and {b} is : {a+b}")
+pkkk=hi()    
+# pkkk= hi(1,2)  
+pkkk.add(1,3)
+print("hiii")
